@@ -7,15 +7,15 @@
 /*
  Your expression predictions:
  
- 1.
- 2.
- 3. 
- 4.
+ 1.!b 
+ 2. b || true 
+ 3. (x > y) && (y > z) 
+ 4. (x == y) || (x <= z) 
  
- 5.
- 6.
- 7.
- 8.
+ 5. !(x % 2 == 0) 
+ 6. b && !b 
+ 7. b || !b
+ 8. (x < y) == b
    
  */
 
@@ -41,7 +41,7 @@ public class P1_BooleanExpressions {
 		int z = 32; 
 		boolean b = false; 
 		
-		System.out.println("REPLACE THIS STRING WITH YOUR BOOLEAN EXPRESSION");
+		System.out.println("b || true ");
 	}
 
 }
